@@ -11,7 +11,7 @@ body{
     background-color: #ffdc36c7;
     box-shadow: 0.01rem 0.5rem 1rem #fe6161;
 }
-#div-inicio{
+#section-inicio{
     margin: 0px;
     width: 100%;
     height: 35rem;
@@ -45,7 +45,7 @@ body{
     text-align: center;
     font-family: 'Satisfy', cursive;
 }
-#div-descripcion{
+#section-descripcion{
     width: 100%;
     height: auto;
     background-color: #ffdc36c7;
@@ -68,7 +68,7 @@ body{
     background-size: cover;
 
 }
-#div-productos{
+#section-productos{
     width: 100%;
     height: auto;
     background-color: #f19b60;
@@ -96,7 +96,7 @@ p{
     width: 30%;
     border-radius: 10%;
 }
-#div-informacion{
+#footer-informacion{
     width: 100%;
     height: 20rem;
     background-color: #f7d15000;
