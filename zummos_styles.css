@@ -1,0 +1,152 @@
+body{
+    top: 0px;
+    position: absolute;
+    margin: 0px;
+    padding: 0%;
+    width: 100%;
+}
+#header{
+    width: 100%;
+    height: 3rem;
+    background-color: #ffdc36c7;
+    box-shadow: 0.01rem 0.5rem 1rem #fe6161;
+}
+#div-inicio{
+    margin: 0px;
+    width: 100%;
+    height: 35rem;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    background-color:#fde884;
+    box-shadow: 0.01rem 0.5rem 1rem #fe6161;
+    background-image: url("images/naranjas.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#foto-inicio{
+    margin: 0;
+    width: 40%;
+    opacity: 100%;
+    border-radius: 50%;
+}
+#logo{
+    font-size: 15vmin;
+    color: #97b948;
+    margin: auto auto 0 auto;
+    text-align: center;
+    font-family: 'IBM Plex Sans', sans-serif;
+    text-shadow: 0.1rem 0.2rem 0.1rem #0b3d09;
+}
+#slogan{
+    font-size: 8vmin;
+    color: #6a774d;
+    margin: 0 auto auto auto;
+    text-align: center;
+    font-family: 'Satisfy', cursive;
+}
+#div-descripcion{
+    width: 100%;
+    height: auto;
+    background-color: #ffdc36c7;
+    display: flex;
+    align-items: center;
+    padding: 3rem 0rem;
+}
+#div-nosotros{
+    width: 100%;
+    height: 20rem;
+    background-color: #889d586b;
+    margin: auto auto;
+    box-shadow: 0.01rem 0.5rem 1rem #fec661
+}
+#div-contenido{
+    width: 100%;
+    height: auto;
+    background-image: url("images/piñas_amarillo.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+#div-productos{
+    width: 100%;
+    height: auto;
+    background-color: #f19b60;
+    padding: 2rem 0rem;
+    box-shadow: .01rem 0.5rem 0.5rem #edab4bc7;
+}
+#p-productos{
+    font-size: 5vmin;
+    color: #fffdb1;
+    margin: 0 auto auto auto;
+    text-align: left;
+    font-family: 'IBM Plex Sans', sans-serif;
+    padding: 0rem 2rem;
+}
+p{
+    margin: 0 0;
+}
+#wrap-productos{
+    margin: 3vmin auto;
+    width: 90%;
+    text-align: center;
+}
+#wrap-productos img{
+    margin: 0.5rem;
+    width: 30%;
+    border-radius: 10%;
+}
+#div-informacion{
+    width: 100%;
+    height: 20rem;
+    background-color: #f7d15000;
+    padding: 2rem 0;
+    margin: 4rem 0 0 0;
+    
+}
+#wrap-contacto{
+    width: 100%;
+    height: 90%;
+    margin: 3vmin auto;
+    display: flex;
+    background-color: #558786d9;
+}
+#formulario{
+    width: 30%;
+    height: 60%;
+    padding: 2%;
+}
+#mapa{
+    width: 40%;
+    height: 80%;
+    padding: 2%;
+}
+#redes{
+    width: 30%;
+    height: 80%;
+    padding: 2%;
+}
+#direccion{
+    font-size: 2vmin;
+    color: #fffdb1;
+    margin: 0 auto auto auto;
+    text-align: left;
+    font-family: 'IBM Plex Sans', sans-serif;
+    padding: 0rem 2rem;
+}
+h1{
+    font-size: 1.5rem;
+    color: #fffdb1;
+    margin: 0 auto auto auto;
+    text-align: center;
+    font-family: 'IBM Plex Sans', sans-serif;
+    padding: 0rem 2rem;
+}
+h2{
+    font-size: 1.2rem;
+    color: #fffdb1;
+    margin: 0 auto auto auto;
+    text-align: center;
+    font-family: 'IBM Plex Sans', sans-serif;
+    padding: 1rem 2rem;
+}
