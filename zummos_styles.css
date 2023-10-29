@@ -14,7 +14,7 @@ body{
 #section-inicio{
     margin: 0px;
     width: 100%;
-    height: 35rem;
+    height: 90vmin;
     align-items: center;
     display: flex;
     flex-direction: column;
@@ -55,10 +55,29 @@ body{
 }
 #div-nosotros{
     width: 100%;
-    height: 20rem;
+    height: auto;
     background-color: #889d586b;
     margin: auto auto;
-    box-shadow: 0.01rem 0.5rem 1rem #fec661
+    box-shadow: 0.01rem 0.5rem 1rem #fec661;
+    padding: 2% 2%;
+}
+#table-nosotros td{
+    padding: 0% 0%;
+    text-align: center
+}
+.td-texto{
+    margin: 1% 1%;
+    height: auto;
+    font-size: 1.2rem;
+    color: #fffdb1;
+    text-align: center;
+}
+#table-nosotros img{
+    border-radius: 5%;
+    width: 90%;
+    opacity: 80%;
+    border: none;
+    box-shadow: 0.1rem 0.1rem 0.5rem #595c37
 }
 #div-contenido{
     width: 100%;
@@ -100,9 +119,7 @@ p{
     width: 100%;
     height: 20rem;
     background-color: #f7d15000;
-    padding: 2rem 0;
-    margin: 4rem 0 0 0;
-    
+    padding: 1rem 0rem 2rem 0;  
 }
 #wrap-contacto{
     width: 100%;
