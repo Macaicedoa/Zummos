@@ -1,3 +1,6 @@
+*{
+    margin: 0 0;
+}
 body{
     top: 0px;
     position: absolute;
@@ -63,14 +66,22 @@ body{
 }
 #table-nosotros td{
     padding: 0% 0%;
-    text-align: center
+    text-align: center;
+}
+.td-img{
+    opacity: 85%;
+    position: relative;
 }
 .td-texto{
-    margin: 1% 1%;
+    margin: 1% auto;
+    width: 90%;
     height: auto;
     font-size: 1.2rem;
     color: #fffdb1;
     text-align: center;
+    position: relative;
+    top: -200px;
+
 }
 #table-nosotros img{
     border-radius: 5%;
