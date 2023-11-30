@@ -3,6 +3,7 @@
 }
 *{
     margin: 0 0;
+    padding: 0;
 }
 body{
     top: 0px;
@@ -19,35 +20,60 @@ body{
     position: sticky;
     top: 0;
     left: 0;
+    z-index: 99;
 }
 #section-inicio {
     margin: 0px;
     width: 100%;
     height: 90vmin;
     align-items: center;
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    grid-template-rows: repeat(2,1fr);
     background-color: #fde884;
     box-shadow: 0.01rem 0.5rem 1rem #fe6161;
     background-image: url(images/naranjas.png);
     background-repeat: no-repeat;
     background-size: cover;
-    p:first-child{
-        font-size: 15vmin;
-        color: #97b948;
-        margin: auto auto 0 auto;
-        text-align: center;
-        font-family: 'IBM Plex Sans', sans-serif;
-        text-shadow: 0.1rem 0.2rem 0.1rem #0b3d09;
+    #logo{
+        display: flex;
+        align-self: end;
+        height: 100%;
+        p{
+            font-size: 15vmin;
+            color: #97b948;
+            margin: auto auto 0 auto;
+            text-align: center;
+            font-family: 'IBM Plex Sans', sans-serif;
+            text-shadow: 0.1rem 0.2rem 0.1rem #0b3d09;
+            animation: flicker 1s normal 0ms linear;  
+        }   
+        @keyframes flicker {
+            0%{ text-shadow: 0.1rem 0.22rem 1rem #176115;}
+            100%{ text-shadow: 0.1rem 0.2rem 0.1rem #0b3d09;}
+        } 
     }
-    p:nth-child(2){
-        font-size: 8vmin;
-        color: #6a774d;
-        margin: 0 auto auto auto;
-        text-align: center;
-        font-family: 'Satisfy', cursive; 
+    #slogan{
+        display: flex;
+        align-self: start;
+        justify-content: center;
+        p{
+            margin: 0 10px 0 10px;
+            font-size: 8vmin;
+            color: #6a774d;
+            text-align: center;
+            font-family: 'Satisfy', cursive; 
+            animation: appear 2s forwards 0s ease-in;  
+        }   
+        @keyframes appear {
+            0%{ opacity: 0.0;}
+            25%{ opacity: 0.0;}
+            50%{ opacity: 0.5;}
+            75%{ opacity: 0.75;}
+            100%{ opacity: 1;}
+        }
     }
 }
+
 #section-descripcion {
     width: 100%;
     height: auto;
