@@ -90,7 +90,7 @@ body{
     border: none;
     box-shadow: 0.1rem 0.1rem 0.5rem #595c37
 }
-#div-contenido{
+#div-footer{
     width: 100%;
     height: auto;
     background-image: url("images/piñas_amarillo.png");
