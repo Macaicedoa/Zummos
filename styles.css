@@ -115,7 +115,6 @@ body {
   display: grid;
   width: 100%;
   grid-template-columns: repeat(3, 100%);
-  gap: 5%;
 }
 #section-descripcion #div-nosotros div {
   height: fit-content;
@@ -126,12 +125,13 @@ body {
   align-items: center;
   justify-content: center;
   margin: 0% 2%;
+  animation: looping 30s infinite 1s linear;
 }
 #section-descripcion #div-nosotros div .td-img {
   height: 90%;
   border-radius: 1.5rem;
   overflow: hidden;
-  opacity: 0.7;
+  opacity: 0.8;
   border: solid 2px #364537;
 }
 #section-descripcion #div-nosotros div p {
@@ -143,11 +143,22 @@ body {
   text-wrap: pretty;
   word-break: break-word;
 }
+@keyframes looping {
+  0% {
+    transform: translateX(0vw);
+  }
+  50% {
+    transform: translateX(-100vw);
+  }
+  100% {
+    transform: translateX(-200vw);
+  }
+}
 
 #section-productos {
   width: 100%;
   height: auto;
-  background-color: #f19b60;
+  background-color: #f08338;
   padding: 2rem 0rem;
   box-shadow: 0.01rem 0.5rem 0.5rem rgba(237, 171, 75, 0.7803921569);
 }
